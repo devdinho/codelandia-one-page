@@ -1,12 +1,4 @@
 .minions {
-  /* display: flex; */
-  /* flex: 1; */
-  /* max-width: 500px; */
-}
-
-@media only screen and (min-width: 768px) {
-  .minions-wrapper {
-    /* justify-content: flex-end; */
-  }
-
+  flex: 1;
+  min-width: 320px;
 }
