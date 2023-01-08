@@ -2,3 +2,38 @@ header {
   background-color: #D7D4FF;
   padding: 55px 20px 89px 20px;
 }
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-wrapper h1 {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 47px;
+  color: #2B2B2B;
+}
+
+.info-wrapper p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #555555;
+  padding: 18px 0 32px 0;
+}
+
+.info-wrapper button {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #6C63FF;
+  padding: 12px 50px 12px;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  border-radius: 5px;
+  align-self: flex-start;
+}
