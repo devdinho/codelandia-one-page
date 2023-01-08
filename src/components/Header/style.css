@@ -1,11 +1,12 @@
 header {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: space-between;
   justify-content: center;
-  gap: 115px;
+  gap: 80px;
   background-color: #D7D4FF;
-  padding: 55px 20px 89px 20px;
+  padding: 55px 20px;
+  /* max-height: 800px; */
 }
 
 .info-wrapper {
