@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import Minions from './components/Minions'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           </p>
           <button>Botão</button>
         </div>
+        <Minions />
       </Header>
     </div>
   )

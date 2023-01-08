@@ -1,4 +1,8 @@
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 115px;
   background-color: #D7D4FF;
   padding: 55px 20px 89px 20px;
 }
@@ -6,6 +10,8 @@ header {
 .info-wrapper {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  /* max-width: 500px; */
 }
 
 .info-wrapper h1 {
