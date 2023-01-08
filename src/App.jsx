@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import Main from './components/Main'
 import Minions from './components/Minions'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         </div>
         <Minions />
       </Header>
+      <Main></Main>
     </div>
   )
 }
