@@ -1,7 +1,17 @@
 import './App.css'
+import Card from './components/Card'
 import Header from './components/Header'
 import Main from './components/Main'
 import Minions from './components/Minions'
+
+const cards = [
+  "#FF6363",
+  "#63ECFF",
+  "#F363FF",
+  "#63FF73",
+  "#FFDD63",
+  "#6663FF",
+];
 
 function App() {
 
@@ -18,7 +28,11 @@ function App() {
         </div>
         <Minions />
       </Header>
-      <Main></Main>
+      <Main>
+        {
+          cards.map(color => <Card bgColor={ color }/>)
+        }
+      </Main>
     </div>
   )
 }

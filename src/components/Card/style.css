@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 340px;
+  max-width: 375px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-bg {
+  height: 222px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 24px 31px 31px 33px;
+  background-color: #FFFFFF;
+}
+
+.card-info h3 {
+  line-height: 30px;
+  font-family: "Merriweather", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2B2B2B;
+}
+
+.card-info p {
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}

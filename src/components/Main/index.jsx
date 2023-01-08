@@ -2,7 +2,11 @@ import "./style.css";
 
 const Main = ({ children }) => {
   return (
-    <main>{ children }</main>
+    <main>
+      <div className="cards-container">
+        { children }
+      </div>
+    </main>
   )
 };
 
