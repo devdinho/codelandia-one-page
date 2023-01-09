@@ -1,6 +1,7 @@
 import './App.css'
 import Card from './components/Card'
 import Footer from './components/Footer'
+import Form from './components/Form'
 import Header from './components/Header'
 import Main from './components/Main'
 import Minions from './components/Minions'
@@ -34,7 +35,9 @@ function App() {
           cards.map(color => <Card bgColor={ color }/>)
         }
       </Main>
-      <Footer></Footer>
+      <Footer>
+        <Form />
+      </Footer>
     </div>
   )
 }
