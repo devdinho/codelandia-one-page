@@ -13,3 +13,13 @@ main {
   gap: 30px;
   max-width: 1260px;
 }
+
+@media only screen and (min-width: 1280px) {
+  main {
+    padding: 150px 0;
+  }
+
+  .cards-container {
+    gap: 68px 111px;
+  }
+}
