@@ -14,14 +14,14 @@
   text-align: center;
 }
 
-.form-container form {
+form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.form-container form input,
-.form-container form textarea {
+form input,
+form textarea {
   padding: 21px 15px 22px;
   border-radius: 6px;
   font-family: "Lato", sans-serif;
@@ -30,14 +30,14 @@
   border: none;
 }
 
-.form-container form textarea {
+form textarea {
   resize: none;
   flex-basis: 150px;
   max-height: 165px;
   flex-grow: 1;
 }
 
-.form-container form button {
+form button {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -58,12 +58,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .form-container form textarea {
+  form textarea {
     flex-basis: 165px;
   }
 
-  .form-container form input,
-  .form-container form textarea {
+  form input,
+  form textarea {
     font-size: 18px;
   }
 }
