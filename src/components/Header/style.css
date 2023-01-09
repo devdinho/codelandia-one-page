@@ -1,19 +1,23 @@
 header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: space-between;
-  justify-content: center;
-  gap: 80px;
   background-color: #D7D4FF;
   padding: 55px 20px;
-  /* max-height: 800px; */
+}
+
+.header-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  max-width: 1280px;
 }
 
 .info-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex: 1;
   min-width: 320px;
+  margin-right: auto;
 }
 
 .info-wrapper h1 {
@@ -50,4 +54,10 @@ header {
 
 .info-wrapper button:active {
   transform: scale(0.96);
+}
+
+@media only screen and (min-width: 1024px) {
+  .info-wrapper {
+    max-width: 500px;
+  }
 }

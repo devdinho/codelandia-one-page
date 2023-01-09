@@ -2,7 +2,11 @@ import "./style.css";
 
 const Header = ({ children }) => {
   return (
-    <header>{ children }</header>
+    <header>
+      <div className="header-container">
+        { children }
+      </div>
+    </header>
   )
 };
 
