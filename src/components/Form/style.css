@@ -48,6 +48,11 @@ form button {
   padding: 13px 0;
   border-radius: 5px;
   box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  transition: all 150ms;
+}
+
+form button:active {
+  transform: scale(0.98);
 }
 
 ::placeholder {
